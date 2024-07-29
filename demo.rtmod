@@ -1,0 +1,5 @@
+info {
+  description = "example description"
+  url         = "https://github.com/redteamer-io/exp"
+  tags        = ["tag1", "tag2"]
+}
