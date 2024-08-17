@@ -1,0 +1,14 @@
+info {
+  description = "a scan module"
+  url         = "https://github.com/redteamer-io/exp"
+}
+
+input "target" {
+  type    = string
+  default = "default value"
+}
+
+output "result" {
+  type  = string
+  value = input.target
+}
