@@ -4,11 +4,14 @@ info {
 }
 
 input "target" {
-  type    = string
-  default = "default value"
+  type        = string
+  default     = "default value"
+  description = "some target"
 }
 
 output "result" {
-  type  = string
-  value = input.target
+  type        = string
+  value       = input.target
+  example     = "myself"
+  description = "the best result"
 }
